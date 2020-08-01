@@ -48,7 +48,7 @@ function Routes ({user, setUser}) {
 
           In your own words, please explain what is happening in the logic below.
           ANSWER HERE:
-          So basically the code below shows that if the user is logged in, they can have access to the Index page where all the tours are listed, the New Tour page to create a new tour and Edit the tour page. Otherwise, they will be redirected to the Home page. 
+          So basically the code below shows that if the user is logged in, they can have access to the Index page where all the tours are listed, the New Tour page to create a new tour and Edit page to edit the tour. Otherwise, they will be redirected to the Home page. 
         */
       }
       <Route exact path="/tours" render={
