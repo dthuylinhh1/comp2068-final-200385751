@@ -12,8 +12,9 @@ const Edit = function (props) {
 
   const [ inputs, setInputs ] = useState({
       title: '',
-      content: '',
-      status: 'DRAFT'
+      tourType: `I'm too young to die`,
+      groupSize: '1',
+      date: ''
   });
 
   const [ redirect, setRedirect ] = useState(false);
